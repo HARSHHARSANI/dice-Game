@@ -1,0 +1,9 @@
+.button {
+  background-color: black;
+  color: white;
+}
+.container {
+  max-width: 1180px;
+  margin: auto;
+  display: flex;
+}

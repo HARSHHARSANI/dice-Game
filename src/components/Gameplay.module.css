@@ -1,0 +1,100 @@
+.header {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.totalscoreSection {
+  font-weight: 600;
+  font-size: 40px;
+  margin-right: 600px;
+}
+
+.totalScore {
+  font-size: 20px;
+}
+
+.numbers {
+  display: flex;
+  gap: 20px;
+}
+
+.selectNumberSection {
+  font-weight: 600;
+  font-size: 40px;
+  margin-left: auto;
+}
+.selectNumber {
+  font-size: 20px;
+  margin-left: 180px;
+  margin-top: 20px;
+}
+
+.dicebtn {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  padding: 12px;
+  border-radius: 10px;
+  height: 40px;
+  width: 40px;
+}
+
+.play {
+  margin-top: 10px;
+}
+
+.dice1image {
+  justify-content: center;
+  align-items: center;
+  margin-left: 520px;
+  margin-top: 150px;
+  height: 290px;
+  width: 290px;
+}
+
+.dice1image {
+  justify-content: center;
+  align-items: center;
+  margin-left: 520px;
+  margin-top: 150px;
+  height: 290px;
+  width: 290px;
+}
+
+.content {
+  justify-content: center;
+  align-items: center;
+  margin-left: 580px;
+  margin-top: 50px;
+  height: 290px;
+  width: 290px;
+  font-weight: 600px;
+  font-size: 20px;
+}
+
+.btn {
+  background-color: black;
+  padding: 16px;
+  border-radius: 20px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 12px;
+  border: none;
+  border: transparent;
+  transition: 0.4s background ease-in;
+  cursor: pointer;
+
+  &:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    transition: 0.3s background ease-in;
+  }
+}
+
+.btnss {
+  margin-top: -200px;
+  margin-left: 600px;
+}

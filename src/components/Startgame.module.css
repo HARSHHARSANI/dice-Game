@@ -1,0 +1,35 @@
+
+
+.image {
+  align-items: center;
+  justify-content: center;
+  margin-top: 180px;
+}
+
+.content {
+  font-weight: 900px;
+  margin-top: 380px;
+  font-size: 40px;
+  margin-left: 130px;
+  margin-bottom: -40px;
+}
+
+.button {
+  background-color: black;
+  padding: 16px;
+  border-radius: 20px;
+  color: white;
+  margin-left: 260px;
+  margin-top: -40px;
+  border: none;
+  border: transparent;
+  transition: 0.4s background ease-in;
+  cursor: pointer;
+
+  &:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    transition: 0.3s background ease-in;
+  }
+}
