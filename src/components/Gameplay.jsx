@@ -14,7 +14,7 @@ const Gameplay = () => {
 
   const handleRoll = () => {
     if (selectedNumber == null) {
-      alert("cant start the game without selecting the number");
+      alert("can't start the game without selecting the number");
       return;
     }
     const generatedNumber = Math.floor(Math.random() * 6) + 1; // Generate number from 1 to 6
@@ -26,6 +26,17 @@ const Gameplay = () => {
     } else {
       setTotalScore((prevScore) => prevScore - 1);
     }
+  };
+
+  const handleReset = () => {
+    setSelectedNumber(null);
+    setTotalScore(0);
+  };
+
+  const handlerules = () => {
+    alert(
+      "Select a number , if we have the same number u will get the same score , otherwise i will deduct your score with -1"
+    );
   };
 
   return (
@@ -67,9 +78,13 @@ const Gameplay = () => {
           </div>
           <p className={styles.content}>Click on Dice To Roll</p>
           <div className={styles.btnss}>
-            <button className={styles.btn}>Reset Score</button>
+            <button className={styles.btn} onClick={handleReset}>
+              Reset Score
+            </button>
             <br />
-            <button className={styles.btn}>Show rules</button>
+            <button className={styles.btn} onClick={handlerules}>
+              Show rules
+            </button>
           </div>
         </div>
       </div>
